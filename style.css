@@ -1,0 +1,21 @@
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.navigation {
+    display: flex;/*placed horizontally*/
+    justify-content: space-between;/*controls horizontal spacing*/
+    align-items: center;/*lined up vertically*/
+    padding: 0 100px;/*add padding to the left and right*/
+    border-bottom: 2px solid black;/*add a border to the bottom of the navigation bar*/
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
