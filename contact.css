@@ -1,0 +1,72 @@
+body {
+    font-family: "Open Sans", sans-serif; /*text font */
+    font-optical-sizing: auto; 
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    background-color: #adebb3; /* Mint green */
+}
+.navigation {
+    display: flex;/*placed horizontally*/
+    justify-content: space-between;/*controls horizontal spacing*/
+    align-items: center;/*lined up vertically*/
+    padding: 0 100px;/*add padding to the left and right*/
+    border-bottom: 2px solid black;/*add a border to the bottom of the navigation bar*/
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+.contactMe {
+    /* Center the form and give it some padding */
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.contactMe input,
+.contactMe textarea {
+    /* Style the input fields and textarea */
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px;
+    border: 1px solid #287d68;
+    border-radius: 8px;
+    font: inherit;
+    color: #222;
+    background-color: white;
+}
+
+.contactMe button {
+    /* Style the submit button */
+    display: block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #287d68;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+.contactMe button:hover {
+    /* Change the button color on hover */
+    background-color: #1d5c4d;
+}
+
+.navigation a {
+    /*set the navigation links to be black and remove the underline*/
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
